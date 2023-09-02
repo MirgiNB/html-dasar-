@@ -1,0 +1,30 @@
+h1{
+    color:blue
+    
+}
+h2{
+    font-size: 20px;
+    color: red;
+    background-color: rgb(29, 152, 253);
+}
+h3{
+    font-size: 20px;
+    color: black;
+    background-color: rgb(29, 152, 253);
+}
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+.kotak_login{
+	width: 500px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
