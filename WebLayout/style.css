@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ .input-container input:focus {
+            outline: none;
+            border-color: #007BFF;
+        }
+h1{
+    color:blue
+    
+}
+h2{
+    font-size: 20px;
+    color: red;
+    background-color: rgb(29, 152, 253);
+}
+h3{
+    font-size: 20px;
+    color: black;
+    background-color: rgb(29, 152, 253);
+}
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+.kotak_login{
+	width: 500px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container label,
+    .container input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.tombol_login {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr; /* Membuat satu kolom untuk layar kecil */
+    }
